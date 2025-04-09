@@ -60,6 +60,18 @@ footer a:hover {
 	text-transform: uppercase;
 }
 
+/* Green section */
+.green-section {
+	background-color: #61837E;
+	padding: 60px 0;
+	width: 100%;
+  }
+  
+  .custom-section h2,
+  .custom-section p {
+	color: white;
+  }
+  
 /* Footer style */
 
 footer {
