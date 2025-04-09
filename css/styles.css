@@ -5,7 +5,7 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
+	font-family: "mono45-headline", monospace;
 	background-color: #2B292B;
 	color: #fff;
 }
@@ -16,12 +16,23 @@ header {
 	background-color: #502A75;
 }
 
-/* Changing the background color for the navigation bar */
+/* The navigation bar */
 
 .navbar {
-	background-color: #354845;
+	background-color: #502a75;
 }
 
+.navbar-light .navbar-nav .nav-link {
+	color: white !important; /* Change text color to white */
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+	color: #61837E !important; /* Optional: change hover color */
+  }
+
+  .navbar-light .navbar-nav .nav-link.active {
+	color: #61837E !important; /* Set active link color (orange as an example) */
+  }
 /* Effect on social media buttons */
 
 footer a:hover {
@@ -31,15 +42,87 @@ footer a:hover {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
+	color: #61837E;
 	font-weight: bold;
 }
 
-/* Hero Section shadow */
-
-.white-shadow {
-	text-shadow: -.01em -.01em .01em white,
-		.02em .02em .02em white,
-		0 0 .2em white,
-		0 0 .5em white;
+/* Typography styles */
+.page-title {
+	font-family: "chinese-rocks", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
+
+.subheadings {
+	font-family: "mono45-headline", monospace;
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+/* Footer style */
+
+footer {
+	background-color: #502A75;
+	color: white;
+	padding: 40px 20px;
+	font-family: "mono45-headline", monospace;
+  }
+  
+  .footer-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin: auto;
+  }
+  
+  .footer-logo img {
+	max-width: 200px;
+	margin-top: 20px
+  }
+  
+  .footer-sitemap,
+  .footer-contact {
+	min-width: 200px;
+  }
+  
+  .footer-sitemap {
+	text-align: center;
+  }
+  
+  .footer-sitemap h4,
+  .footer-contact h4 {
+	margin-bottom: 10px;
+  }
+  
+  .footer-sitemap ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .footer-sitemap ul li a {
+	color: white;
+	text-decoration: none;
+  }
+  
+  .footer-contact {
+	text-align: right;
+  }
+  
+  .footer-bottom {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	font-size: 0.9em;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  .footer-bottom-left,
+  .footer-bottom-right {
+	margin-bottom: 10px;
+  }
