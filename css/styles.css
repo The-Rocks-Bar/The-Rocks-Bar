@@ -72,6 +72,19 @@ footer a:hover {
 	color: white;
   }
   
+/* Button style */
+  .button-purple {
+	background-color: #9b52e2;
+	border-color: #9b52e2;
+	color: white;
+  }
+  
+  .button-purple:hover {
+	background-color: #502a75	;
+	border-color: #502a75	;
+	color: white;
+  }
+  
 /* Footer style */
 
 footer {
@@ -91,7 +104,7 @@ footer {
   
   .footer-logo img {
 	max-width: 200px;
-	margin-top: 20px
+	margin-top: 40px
   }
   
   .footer-sitemap,
