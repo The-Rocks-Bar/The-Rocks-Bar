@@ -5,9 +5,13 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: "mono45-headline", monospace;
+	font-family: "momochidori", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	background-color: #2B292B;
 	color: #fff;
+	font-size: 1rem;
+	
 }
 
 /* Changing the background colour for the header */
@@ -20,6 +24,8 @@ header {
 
 .navbar {
 	background-color: #502a75;
+	font-family: "mono45-headline", monospace;
+	font-style: normal;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -47,22 +53,33 @@ footer a:hover {
 }
 
 /* Typography styles */
-.page-title {
+
+h1{
 	font-family: "chinese-rocks", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
 
-.subheadings {
+h2 {
 	font-family: "mono45-headline", monospace;
 	font-weight: bold;
 	font-style: normal;
-	text-transform: uppercase;
+}
+
+h3 {
+	font-family: "mono45-headline", monospace;
+	font-style: normal;
 }
 
 /* Green section */
 .green-section {
 	background-color: #61837E;
+	padding: 60px 0;
+	width: 100%;
+  }
+
+  .purple-section {
+	background-color: #502a75;
 	padding: 60px 0;
 	width: 100%;
   }
@@ -77,12 +94,25 @@ footer a:hover {
 	background-color: #9b52e2;
 	border-color: #9b52e2;
 	color: white;
+	font-size: 1rem;
   }
   
   .button-purple:hover {
 	background-color: #502a75	;
 	border-color: #502a75	;
 	color: white;
+  }
+  
+  .button-outline-white {
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+	font-size: 1rem;
+  }
+  
+  .button-outline-white:hover {
+	opacity: .5;
+	border: 2px solid white;
   }
   
 /* Footer style */
@@ -151,3 +181,28 @@ footer {
   .footer-bottom-right {
 	margin-bottom: 10px;
   }
+
+/* Value blocks */
+
+  .value-block-purple {
+	background-color: #502a75;
+	border-radius: 0; 
+	padding: 20px;
+	color: white; 
+  }
+
+  .value-block-green {
+	background-color: #22998a;
+	border-radius: 0; 
+	padding: 20px;
+	color: white; 
+  }
+
+  /*center images*/
+  
+  .center-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  

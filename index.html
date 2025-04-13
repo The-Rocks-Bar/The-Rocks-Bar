@@ -11,6 +11,17 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/djz7qwp.css">
     <link rel="stylesheet" href="https://use.typekit.net/djz7qwp.css">
+    <link rel="stylesheet" href="https://use.typekit.net/djz7qwp.css">
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'abt7kin',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
 
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -25,47 +36,46 @@
   <body class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/general/therockslogowit.png" width="100" alt="Breda University of Applied Sciences">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="example.html">Agenda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="example.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="corporate.html">Corporate</a>
-            </li>
+   <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/general/therockslogowit.png" width="100" alt="Breda University of Applied Sciences">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Sign Up
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="hero.html">Events</a></li>
-              <li><a class="dropdown-item" href="carousel.html">Artists</a></li>
-              <li><a class="dropdown-item" href="two-columns.html">Sponsors</a></li>
-              <li><a class="dropdown-item" href="cards.html">Community</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="agenda.html">Agenda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="corporate.html">Corporate</a>
+          </li>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="sign-up.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sign Up
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="sign-up.html#events">Events</a></li>
+            <li><a class="dropdown-item" href="sign-up.html#artists">Artists</a></li>
+            <li><a class="dropdown-item" href="sign-up.html#sponsors">Sponsors</a></li>
           </ul>
-        </div>
+        </ul>
       </div>
-    </nav>
-    <!-- End of navigation bar -->
+    </div>
+  </nav>
+  <!-- End of navigation bar -->
  
    <!-- Start of hero section -->
 <header class="w-100 p-0">
@@ -77,11 +87,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-lg-6 mx-auto text-white text-center">
-            <h1 class="page-title">Welcome to</h1>
+            <h2 class="page-title">Welcome to</h2>
             <img src="images/general/therockslogowit.png" alt="Logo the Rocks Bar" class="img-fluid rounded">
-            <h2 class="subheadings">Catchy subtitle</h2>
+            <h3 class="subheadings">Catchy subtitle</h3>
             <p class="mt-2">
-              <a href="#" class="btn btn-lg button-purple m-1 rounded-0">Sign up</a>
+              <a href="sign-up.html" class="btn btn-lg button-purple m-1 rounded-0">Sign up</a>
             </p>
           </div>
         </div>
@@ -91,19 +101,21 @@
 </header>
 <!-- End of hero section -->
 
-    <!-- Start of What is the Rocks Bar -->
-    <main class="h-100 d-flex flex-column justify-content-center align-items-center">
-
-      <h1>What is the Rocks Bar?</h1>
-      <h5 class=" mb-5">Test Kas</h5>
-      <div class="container text-left">
-        <p>This is a page you can use as a placeholder for your future website.</p>
-        <p>Once published (which should be at the end of week 5 of the project), it can be fully integrated within your marketing campaign.</p>
-        <p>You will then replace this landing page by a full website.</p>
-        <p>To build your website, you can start with the <a href="example.html">example</a> or pick and mix elements from the UX pattern pages of this website (check menu above).</p>
+    <!-- Start of What is the Rocks Bar-->
+  <div class="container pt-3 pb-2">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
+        <h2 style="margin-bottom: 25px; margin-top: 25px;">What is the Rocks Bar?</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  
+        </p>
+        <p class="mt-2" style="margin-bottom: 25px;">
+          <a href="about-us.html" class="btn btn-lg button-outline-white m-1 rounded-0">Read more</a>
+        </p>
       </div>
-    </main>
-    <!-- End of Wat is the Rocks Bar -->
+    </div>
+  </div>
+<!-- End of What is the Rocks Bar-->
     
     <!-- Start of agenda section-->
     <section class="green-section">
@@ -111,7 +123,10 @@
         <div class="row align-items-center">
           <div class="col-md-6 text-white">
             <h2>Agenda</h2>
-            <p>At The Rocks Bar, we support local artists and create a place where rock lives forever. Great drinks, loud music, and an even louder community.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="mt-2" style="margin-bottom: 25px;">
+              <a href="agenda.html" class="btn btn-lg button-outline-white m-1 rounded-0">See complete agenda</a>
+            </p>
           </div>
           <div class="col-md-6">
             <img src="images/general/therockslogowit.png" alt="Live music at The Rocks" class="img-fluid rounded">
@@ -124,24 +139,24 @@
     <!-- Start of photo section-->
 
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-      <h1 class="container text-center">Get an impression</h1>
+      <h2 class="container text-center" style="margin-top:40px;">Get an impression</h2>
       <div class="container text-center">
-        <p>Omschrijving van deze sectie</p>
+        <p>Description of this Section</p>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img src="images/carrousel/carrouseloneplat.png" class="d-block w-100" alt="...">
+          <img src="images/carrousel/carrouseloneplat.png" class="d-block w-100" alt="Impression the Rocks Bar 1">
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="images/carrousel/carrouseltwoplat.png" class="d-block w-100" alt="...">
+          <img src="images/carrousel/carrouseltwoplat.png" class="d-block w-100" alt="Impression the Rocks Bar 2">
         </div>
         <div class="carousel-item">
-          <img src="images/carrousel/carrouselthreeplat.png" class="d-block w-100" alt="...">
+          <img src="images/carrousel/carrouselthreeplat.png" class="d-block w-100" alt="Impression the Rocks Bar 3">
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="images/carrousel/carrouselfourplat.png" class="d-block w-100" alt="...">
+          <img src="images/carrousel/carrouselfourplat.png" class="d-block w-100" alt="Impression the Rocks Bar 4">
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="images/carrousel/carrouselfiveplat.png" class="d-block w-100" alt="...">
+          <img src="images/carrousel/carrouselfiveplat.png" class="d-block w-100" alt="Impression the Rocks Bar 5">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -159,7 +174,7 @@
 <section class="py-5">
   <div class="container">
     <!-- Top Heading -->
-    <h1 class="container text-center">Are you ready to rock with us?</h1>
+    <h2 class="container text-center">Are you ready to rock with us?</h2>
       <p class="text-center">We hope to see you at the Rocks Bar!</p>
     <!-- Three Columns -->
     <div class="row align-items-center">
@@ -171,7 +186,7 @@
       <!-- Center Text & Your Button -->
       <div class="col-md-4 text-center mb-4 mb-md-0">
         <p class="mt-2">
-          <a href="#" class="btn btn-lg button-purple m-1 rounded-0">Sign up</a>
+          <a href="sign-up.html" class="btn btn-lg button-purple m-1 rounded-0">Sign up</a>
         </p>
       </div>
 
@@ -186,7 +201,7 @@
     <!-- End of Final CTA -->
 
     <!-- Start of footer-->
-<footer>
+<footer style="margin-top: 75px;">
   <div class="footer-container">
     <!-- Left: Logo -->
     <div class="footer-logo">
