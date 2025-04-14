@@ -33,11 +33,11 @@ header {
   }
   
   .navbar-light .navbar-nav .nav-link:hover {
-	color: #61837E !important; /* Optional: change hover color */
+	color: #22998a !important; /* Optional: change hover color */
   }
 
   .navbar-light .navbar-nav .nav-link.active {
-	color: #61837E !important; /* Set active link color (orange as an example) */
+	color: #22998a !important; 
   }
 /* Effect on social media buttons */
 
@@ -48,7 +48,7 @@ footer a:hover {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #61837E;
+	color: #22998a;
 	font-weight: bold;
 }
 
@@ -58,6 +58,9 @@ h1{
 	font-family: "chinese-rocks", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	
+
 }
 
 h2 {
@@ -73,7 +76,7 @@ h3 {
 
 /* Green section */
 .green-section {
-	background-color: #61837E;
+	background-color: #22998a;
 	padding: 60px 0;
 	width: 100%;
   }
@@ -185,14 +188,14 @@ footer {
 /* Value blocks */
 
   .value-block-purple {
-	background-color: #502a75;
+	background-color: #9b52e2;
 	border-radius: 0; 
 	padding: 20px;
 	color: white; 
   }
 
   .value-block-green {
-	background-color: #22998a;
+	background-color: #41c2b2;
 	border-radius: 0; 
 	padding: 20px;
 	color: white; 
@@ -204,5 +207,23 @@ footer {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+  }
+  
+  .custom-table {
+	color: white;
+	border: 1px solid white;
+	background-color: transparent;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+	border: 1px solid white;
+	padding: 8px;
+  }
+  
+  .custom-table thead tr {
+	background-color: #502a75;
   }
   
