@@ -28,12 +28,12 @@ header {
 	font-style: normal;
 }
 
-.navbar-light .navbar-nav .nav-link {
-	color: white !important; /* Change text color to white */
+.navbar-light .navbar-nav .nav-link{
+	color: white !important; 
   }
   
   .navbar-light .navbar-nav .nav-link:hover {
-	color: #22998a !important; /* Optional: change hover color */
+	color: #22998a !important; 
   }
 
   .navbar-light .navbar-nav .nav-link.active {
@@ -46,9 +46,12 @@ footer a:hover {
 }
 
 /* Corporate navbar */
-
+.navbar-corporate-inactive {
+	color: white !important; 
+	
+}
 #navbar-corporate a.active {
-	color: #22998a;
+	color: #22998a !important;
 	font-weight: bold;
 }
 
@@ -60,7 +63,10 @@ h1{
 	font-style: normal;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 	font-size: 6rem;
+}
 
+.h1-corporate{
+	font-size: 3rem;
 }
 
 h2 {
