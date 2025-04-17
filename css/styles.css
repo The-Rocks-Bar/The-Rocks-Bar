@@ -59,7 +59,7 @@ h1{
 	font-weight: 400;
 	font-style: normal;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-	
+	font-size: 6rem;
 
 }
 
@@ -67,6 +67,7 @@ h2 {
 	font-family: "mono45-headline", monospace;
 	font-weight: bold;
 	font-style: normal;
+
 }
 
 h3 {
@@ -226,4 +227,74 @@ footer {
   .custom-table thead tr {
 	background-color: #502a75;
   }
+
+  /*hero video*/
+  .background-vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.image-hero {
+	max-width: 100%;
+	height: auto;
+	width: 600px; /* startgrootte op groot scherm */
+	display: block;
+	margin: 0 auto;
+  }
   
+  @media (max-width: 768px) {
+	.image-hero {
+	  width: 200px;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.image-hero {
+	  width: 150px;
+	}
+  }
+  
+
+.h100 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    object-fit: cover;
+}
+
+.h200 {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    object-fit: cover;
+}
+
+ .t-overlay-vid {
+    position: absolute;
+    top: 20vh;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    color: #fff;
+    z-index: 1;
+
+}
+
+.text-overlay{
+	text-align: center;
+}

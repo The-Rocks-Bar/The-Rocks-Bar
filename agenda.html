@@ -76,14 +76,18 @@
   </nav>
   <!-- End of navigation bar -->
 
-  <!-- Hero Section with image and centered heading using only HTML -->
-<div>
-  <img src="images/agenda/agendaheader.jpg" alt="Agenda hero" style="width: 100%; height: auto;">
-  <h1 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-             color: white; font-size: 5rem; text-align: center; margin: 0;">
-    Agenda
-  </h1>
-</div>
+     <!-- Start of hero section -->
+<section>
+  <div class="container-fluid h200">
+    <img class="background-vid" src="images/agenda/agendaheader.jpg" alt="Hero Agenda">
+  </img>
+    <div class="text-overlay text-center">
+      <h1>Agenda</h1>
+    </div>
+  </div>
+</section>
+<!-- End of hero section -->
+
 
 <!-- Start of section 1-->
   <div class="container pt-3 pb-2">
@@ -99,53 +103,86 @@
   </div>
 <!-- End of section 1-->
 
-  <!-- Start of section 2-->
-<section class="purple-section">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 text-white">
-        <h2>Subheading</h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      </div>
-      <div class="col-md-6">
-        <img src="images/general/therockslogowit.png" alt="Live music at The Rocks" class="img-fluid rounded">
+<main class="container my-4">
+  <div class="row g-3 justify-content-evenly">
+
+    <!-- Card #1 -->
+    <div class="col-sm-6 col-lg-4 col-xl-3">
+      <div class="card shadow h-100 rounded-0" style="background-color:#502A75; color: white">
+        <img class="img-fluid" src="images/agenda/alternative_electrics_1.jpg" alt="Alternative Electrics">
+        <div class="card-body text-center">
+          <h3 class="card-title">Alternative Electrics</h3>
+          <p class="card-text">24.04.2025</p>
+          <a href="sign-up.html#events" class="btn btn-lg button-outline-white m-1 rounded-0">Sign up</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End of section 2-->
 
-<!-- Start of section 3-->
-<div class="container pt-3 pb-2">
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
-      <h2 style="margin-bottom: 25px; margin-top: 25px;">Subheading</h2>
-      <p style="margin-bottom: 25px;">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  
-      </p>
-    </div>
-  </div>
-</div>
-<!-- End of section 3-->
-
-<!-- Start of section 4-->
-<section class="green-section" style="margin-top: 25px;">
-  <div class="container">
-    <div class="row align-items-center">
-      <!-- Image column moved first -->
-      <div class="col-md-6">
-        <img src="images/general/therockslogowit.png" alt="Live music at The Rocks" class="img-fluid rounded">
-      </div>
-      <!-- Text column second -->
-      <div class="col-md-6 text-white">
-        <h2>Subheading</h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    <!-- Card #2 -->
+    <div class="col-sm-6 col-lg-4 col-xl-3">
+      <div class="card shadow h-100 rounded-0" style="background-color:#22998a; color: white">
+        <img class="img-fluid" src="images/agenda/acdc_tribute_night_2.jpg" alt="ACDC Tribute Night">
+        <div class="card-body text-center">
+          <h3 class="card-title">ACDC Tribute Night</h3>
+          <p class="card-text">01.05.2025</p>
+          <a href="sign-up.html#events" class="btn btn-lg button-outline-white m-1 rounded-0">Sign up</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End of section 4-->
 
+    <!-- Card #3 -->
+    <div class="col-sm-6 col-lg-4 col-xl-3">
+      <div class="card shadow h-100 rounded-0" style="background-color:#502A75; color: white">
+        <img class="img-fluid" src="images/agenda/cranky_in_a_cup_3.jpg" alt="Cranky in a Cup">
+        <div class="card-body text-center">
+          <h3 class="card-title">Cranky in a Cup</h3>
+          <p class="card-text">08.05.2025</p>
+          <a href="sign-up.html#events" class="btn btn-lg button-outline-white m-1 rounded-0">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card #4 -->
+    <div class="col-sm-6 col-lg-4 col-xl-3">
+      <div class="card shadow h-100 rounded-0" style="background-color:#22998a; color: white">
+        <img class="img-fluid" src="images/agenda/pestilence_4.jpg" alt="Pestilence">
+        <div class="card-body text-center">
+          <h3 class="card-title">Pestilence</h3>
+          <p class="card-text">15.05.2025</p>
+          <a href="sign-up.html#events" class="btn btn-lg button-outline-white m-1 rounded-0">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card #5 -->
+    <div class="col-sm-6 col-lg-4 col-xl-3">
+      <div class="card shadow h-100 rounded-0" style="background-color:#502A75; color: white">
+        <img class="img-fluid" src="images/agenda/_5.jpg" alt="Queen Tribute Night">
+        <div class="card-body text-center">
+          <h3 class="card-title">Queen Tribute Night</h3>
+          <p class="card-text">22.05.2025</p>
+          <a href="sign-up.html#events" class="btn btn-lg button-outline-white m-1 rounded-0">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card #6 -->
+    <div class="col-sm-6 col-lg-4 col-xl-3">
+      <div class="card shadow h-100 rounded-0" style="background-color:#22998a; color: white">
+        <img class="img-fluid" src="images/agenda/the_insiders_6.jpg" alt="The Insiders">
+        <div class="card-body text-center">
+          <h3 class="card-title">The Insiders</h3>
+          <p class="card-text">29.05.2025</p>
+          <a href="sign-up.html#events" class="btn btn-lg button-outline-white m-1 rounded-0">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- That was the last card -->
+
+  </div>
+</main>
+<!-- End of the grid with cards -->
 
 <!-- Start of footer-->
 <footer style="margin-top: 75px;">
