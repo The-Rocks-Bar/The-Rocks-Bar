@@ -304,3 +304,7 @@ footer {
 .text-overlay{
 	text-align: center;
 }
+
+.img-thumbnail{
+	height: 300px;
+}
